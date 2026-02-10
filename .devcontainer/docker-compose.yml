@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   jedee:
-    image: python:3.11.14-slim-bookworm
+    image: debian:bookworm-slim
     volumes:
       - ../..:/workspaces:cached
 
