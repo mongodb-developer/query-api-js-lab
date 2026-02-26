@@ -10,6 +10,23 @@
         "jedee/.vscode/mcp.json: Mongodb Local MCP Server": {
             "allowedModels": [
                 "copilot/gpt-4.1"
-            ]        }
-    }
+            ]
+        }
+    },
+    "jupyter.kernels.excludePythonEnvironments": [
+        "/usr/bin/python3.11",
+        "/usr/bin/python3.12",
+        "/bin/python3.11",
+        "/bin/python3.12",
+        "/usr/bin/python3",
+        "/bin/python3"
+    ],
+    "files.exclude": {
+        ".github/": true,
+        ".devcontainer/": true,
+        ".vscode/": true,
+        "ijava-1.3.0": true,
+        ".gitignore": true
+    },
+    "workbench.secondarySideBar.defaultVisibility": "hidden"
 }
